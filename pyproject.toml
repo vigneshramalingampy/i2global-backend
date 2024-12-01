@@ -1,0 +1,20 @@
+[project]
+name = "i2global-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bcrypt>=4.2.1",
+    "beanie>=1.27.0",
+    "fastapi>=0.115.5",
+    "granian>=1.6.4",
+    "hypercorn>=0.17.3",
+    "loguru>=0.7.2",
+    "passlib>=1.7.4",
+    "pre-commit>=4.0.1",
+    "pydantic[email]>=2.10.2",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.0.1",
+    "ruff>=0.8.1",
+]
